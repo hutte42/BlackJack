@@ -42,4 +42,4 @@ if __name__ == "__main__":
     for i in range(0, 56):
         print(d.draw_card())
         print(f"{len(d.card)} cards left in the deck")
-    a = 4
+    a = 6
