@@ -43,5 +43,5 @@ if __name__ == "__main__":
         print(d.draw_card())
         print(f"{len(d.card)} cards left in the deck")
     if len(d.card) != 0:
-        print("NOT GOOD DECK STILL HAS {len(d.card)} cards left after drawing 56 cards!!")
+        print(f"NOT GOOD DECK STILL HAS {len(d.card)} cards left after drawing 56 cards!!")
     a = 6
