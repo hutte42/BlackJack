@@ -15,4 +15,5 @@ if __name__ == '__main__':
         b.append(elem * 2)
     # with list comprehension
     c = [elem * 2 for elem in a]
-    print("B")
+    print("C")
+
