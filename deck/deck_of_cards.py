@@ -19,7 +19,7 @@ class Deck:
                 actcolour = "clubs"
             else:
                 actcolour = "spades"
-            for number in range(1, 15):
+            for number in range(2, 15):
                 if number < 11:
                     self.card.append(Card(actcolour, str(number)))
                 else:

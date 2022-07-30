@@ -1,4 +1,10 @@
 def game_result(cards_dealer, cards_player):
+    """
+
+    :returns     1 if player won
+                -1 if dealer won
+                0 if drawn
+    """
     value_dealer = get_player_value(cards_dealer)
     value_player = get_player_value(cards_player)
     if value_dealer > 21:
