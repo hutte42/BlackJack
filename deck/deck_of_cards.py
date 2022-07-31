@@ -39,12 +39,3 @@ class Deck:
 
     def get_num_cards_left(self):
         return len(self.cards)
-
-if __name__ == "__main__":
-    d = Deck()
-    for i in range(0, 56):
-        print(d.draw_card())
-        print(f"{len(d.cards)} cards left in the deck")
-    if len(d.cards) != 0:
-        print(f"NOT GOOD DECK STILL HAS {len(d.cards)} cards left after drawing 56 cards!!")
-    a = 6
