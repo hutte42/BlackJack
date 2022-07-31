@@ -55,6 +55,7 @@ class BlackJackGame:
                 self.cards_dealer.append(self.deck.draw_card())
                 self.dealer_action()
             else:
+                print("Dealer stops.")
                 time.sleep(3)
                 winner = game_result(cards_dealer=self.cards_dealer, cards_player=self.cards_player)
                 if winner == 1:
